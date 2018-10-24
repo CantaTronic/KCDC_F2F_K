@@ -1,0 +1,63 @@
+\documentclass[18pt]{beamer}
+\usepackage{templates/beamerthemekit}
+\titlelogo{empty_logo}
+\titleimage{KASCADE-img}
+
+\title[Cosmic rays data center]{KASCADE Cosmic-ray Data Center overview}
+\subtitle{F2F APPDS meeting, Karlsruhe}
+\author{Victoria Tokareva}
+
+\institute{Institute for Nuclear Physics (IKP)}
+
+\date{November 29, 2018}
+
+% Bibliography
+
+\usepackage[citestyle=authoryear,bibstyle=numeric,hyperref,backend=biber]{biblatex}
+\addbibresource{templates/example.bib}
+\bibhang1em
+
+\newcommand{\itemarrow}{\scriptsize\raise1.25pt\hbox{\textcolor{kit-green100}{$\blacktriangleright$}}}
+\newcommand{\concl}[1]{\item[\itemarrow]\textcolor{kit-green100}{#1}}
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+\newlength{\cellwidth}
+\setlength{\cellwidth}{0.43\textwidth}
+\newcommand{\cellbox}[1]{\parbox{\cellwidth}{\vspace{1ex}#1\vspace{1ex}}}
+
+\begin{document}
+
+% change the following line to "ngerman" for German style date and logos
+\selectlanguage{english}
+
+%TODO: Change the picture on the title slide!
+
+%INTRODUCTION
+\input{intro.tex}
+
+%TUTORIAL
+
+%TECHNOLOGIES
+
+
+%STRUCTURE
+
+
+%DATA WORKFLOW
+
+
+%FUTURE PLANS/DISCUSSION
+
+
+% %CONCLUSION
+% \input{concl.tex}
+
+% \appendix
+% \beginbackup
+%
+% \begin{frame}[allowframebreaks]{References}
+% \printbibliography
+% \end{frame}
+%
+% \backupend
+
+\end{document}
