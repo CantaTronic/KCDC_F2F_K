@@ -1,2 +1,13 @@
 *.aux
+*.log
+*.bbl
+*.blg
+*.nav
+*.out
+*.pdf
+*.xml
+*.snm
+*.gz
+*.bcf
+*.toc
 
